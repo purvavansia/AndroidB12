@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidB12</string>
+    <string name="entername">Enter name</string>
+    <string name="enterpassword">Enter password</string>
+    <string name="login">Sign in</string>
+    <string name="cancel">Cancel</string>
+    <string name="remember_password">Remember password</string>
+    <string name="pause">Activity got paused</string>
+    <string name="start">Activity got started</string>
+    <string name="resume">Acriviry got resumed</string>
+    <string name="stop">Activity got stopped</string>
+    <string name="destroy">Activity got destroyed</string>
+</resources>

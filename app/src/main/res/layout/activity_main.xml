@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.androidb12.MainActivity"
+    android:background="@drawable/bg_gradient_login"
+    >
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/entername"
+        android:background="@color/test_background"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignStart="@+id/editTextName"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginTop="45dp"
+        android:text="@string/enterpassword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@color/test_background"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="46dp"
+        android:text="@string/remember_password"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:onClick="clickHandlerB12"
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="40dp"
+        android:text="@string/login" />
+
+    <Button
+        android:onClick="clickHandlerB12"
+        android:id="@+id/buttonCancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonLogin"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_toEndOf="@+id/buttonLogin"
+        android:layout_toRightOf="@+id/buttonLogin"
+        android:text="@string/cancel"/>
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCancle"
+        android:layout_marginTop="51dp"
+        android:layout_toEndOf="@+id/buttonLogin"
+        android:layout_toRightOf="@+id/buttonLogin"
+        android:text=" " />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonLogin"
+        android:layout_alignStart="@+id/buttonLogin"
+        android:layout_alignTop="@+id/textViewMain"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:entries="@array/countries"
+        />
+
+    <!-- style="@style/login_button_style"-->
+
+
+
+</RelativeLayout>

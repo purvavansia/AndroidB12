@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidB12</string>
+    <string name="entername">नाम दर्ज</string>
+    <string name="enterpassword">पास वर्ड दर्ज करें</string>
+    <string name="login">साइन इन करें</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="remember_password">पासवर्ड याद रखें</string>
+</resources>
